@@ -25,7 +25,7 @@ The program will then shuffle the order of the digits and display them in a 3x3 
 ---
 <details><summary>I get a Segmentation Fault When Running</summary>
 <p>
-This is usually caused by not providing an argument when running the program. Ensure you have a parameter after the executable name. Example: `./hw1 2`.
+This is usually caused by not providing an argument when running the program. Ensure you have a parameter after the executable name. Example: <code>./hw1 2</code>.
 </p>
 </details>
 <details><summary>I get random characters in my output</summary>
@@ -53,6 +53,7 @@ Your input has more than 9 digits
 ## FAQ
 ---
 Q: Why do I need to use `g++ -std=c++11` to build this?
+
 A: I decided to use a map to get the language for the output.
 ```
 void uiHelper(int i){
@@ -62,6 +63,7 @@ cout << "The " << shuffleOutputText[i] << " shuffled output is: " << endl;
 ```
 ---
 Q: Why Did You Use printf instead of cout?
+
 A: Because we were printing out characters in an array, it was cleaner to code. For Example:
 ```
 printf("| %c %c %c |\n",arr[0],arr[1],arr[2]);
@@ -72,6 +74,7 @@ cout << "| " << arr[0] << " " << arr[1] << " " << arr[2] << " |" << endl
 ```
 ---
 Q: What happens if I type characters instead of digits?
+
 A: The program breaks. The constraints of the assignment stated:
 "The program takes the string of 9 digits through console input. It should prompt the user to type in the string of 9 digits."
 
@@ -79,6 +82,7 @@ It would be possible to code tests to check the input for type and to ensure tha
 
 ---
 Q: How did you randomize the shuffle?
+
 A: I used the standard library `random_shuffle` function. 
 ```
   random_shuffle(arr,arr+9,randomSeed);
