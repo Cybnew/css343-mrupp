@@ -17,7 +17,7 @@ This project uses standard library features that require it be compiled using C+
 
 After building this project, you may run it by typing `./hw1 {Integer}` where `{integer}` is replaced by an integer that is greater than 0 and less than or equal to 10. 
 
-The program will ask you for an input of **nine** digits. *note, this must be exactly nine digits* 
+The program will ask you for an input of **nine** digits. *note - this must be exactly nine digits* 
 
 The program will then shuffle the order of the digits and display them in a 3x3 grid. This will repeat as many times as were specified via the argument passed in when the program is executed.
 
@@ -30,12 +30,12 @@ This is usually caused by not providing an argument when running the program. En
 </details>
 <details><summary>I get random characters in my output</summary>
 <p>
-Ensure you input has 9 digits</p>
+Ensure you input has 9 digits.</p>
 </details>
  
 <details><summary>The Program Aborts after running</summary>
 <p>
-Your input has more than 9 digits
+Your input has more than 9 digits.
 </p>
 </details>
 
