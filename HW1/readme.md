@@ -13,7 +13,7 @@ This project uses standard library features that require it be compiled using C+
 
 ## Running The Project
 ---
-*This project requires an argument be passed in. Failure to pass in an argument will result in a segmentation fault.*
+**_This project requires an argument be passed in. Failure to pass in an argument will result in a segmentation fault._**
 
 After building this project, you may run it by typing `./hw1 {Integer}` where `{integer}` is replaced by an integer that is greater than 0 and less than or equal to 10. 
 
