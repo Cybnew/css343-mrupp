@@ -23,31 +23,32 @@ The program will then shuffle the order of the digits and display them in a 3x3 
 
 ## Common Issues
 ---
-- <details><summary>I get a Segmentation Fault When Running</summary>
+<details><summary>I get a Segmentation Fault When Running</summary>
 <p>
 This is usually caused by not providing an argument when running the program. Ensure you have a parameter after the executable name. Example: `./hw1 2`.
 </p>
 </details>
-- <details><summary>I get random characters in my output</summary>
+<details><summary>I get random characters in my output</summary>
 <p>
 Ensure you input has 9 digits</p>
 </details>
  
-- <details><summary>The Program Aborts after running</summary>
+<details><summary>The Program Aborts after running</summary>
 <p>
-Your input has more than 9 digits</p>
+Your input has more than 9 digits
+</p>
 </details>
 
 ## Example
 ---
 1. We decide we want to shuffle our numbers twice. We run `hw1` with the argument `2`. `./hw1 2`
-![Argument Passed To Executable](images/example1)
+![Argument Passed To Executable](images/example1.png)
 
 2. The program prompts us to input nine digits to be randomly shuffled. We input `123456789`.
-![Our Input](images/example2)
+![Our Input](images/example2.png)
 
 3. The program outputs our shuffled digits in a 3x3 grid.
-![Output](images/example3)
+![Output](images/example3.png)
 
 ## FAQ
 ---
@@ -62,7 +63,9 @@ cout << "The " << shuffleOutputText[i] << " shuffled output is: " << endl;
 ---
 Q: Why Did You Use printf instead of cout?
 A: Because we were printing out characters in an array, it was cleaner to code. For Example:
-```printf("| %c %c %c |\n",arr[0],arr[1],arr[2]);```
+```
+printf("| %c %c %c |\n",arr[0],arr[1],arr[2]);
+```
 would look like:
 ```
 cout << "| " << arr[0] << " " << arr[1] << " " << arr[2] << " |" << endl
@@ -73,6 +76,7 @@ A: The program breaks. The constraints of the assignment stated:
 "The program takes the string of 9 digits through console input. It should prompt the user to type in the string of 9 digits."
 
 It would be possible to code tests to check the input for type and to ensure that exactly nine digits are input, but that seems to be beyond the scope of the assignment.
+
 ---
 Q: How did you randomize the shuffle?
 A: I used the standard library `random_shuffle` function. 
