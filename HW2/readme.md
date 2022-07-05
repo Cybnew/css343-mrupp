@@ -57,6 +57,7 @@ public:
 
 
 [C++ Queue](https://cplusplus.com/reference/queue/queue/push/)
+
 [Lecture Notes](https://jamboard.google.com/d/1fpIEp3VbXL_ZD4RurdS3yJ_u9Xm7S5nDFQfYcs7Na78/viewer?f=2)
 
 ## 5b 
@@ -146,6 +147,7 @@ public:
 ### References Used
 
 [Vector Info](https://cplusplus.com/reference/vector/vector/?kw=vector)
+
 [Video on the problem (different method than used)](https://www.youtube.com/watch?v=TblhNX9AQ3M)
 
 ## 5d 
@@ -262,6 +264,7 @@ public:
 For this one I had to look at the discussion forum...most of the solutions that were posted had the algorithm simply swapping the values, not the actual nodes. I used one of these to help me find whey my code was not moving as expected
 
 [Leet Code Discussions For Problem](https://leetcode.com/problems/delete-node-in-a-bst/discuss/?currentPage=1&orderBy=newest_to_oldest&query=)
+
 [This explination was the one I used to help me understand better](https://leetcode.com/problems/delete-node-in-a-bst/discuss/2209813/C%2B%2B-90-faster-solution-simple-code-with-comments)
 
 
@@ -367,6 +370,7 @@ public:
 ### References
 
 [Trie Data Structures](https://en.wikipedia.org/wiki/Trie#:~:text=In%20computer%20science%2C%20a%20trie,key%2C%20but%20by%20individual%20characters.)
+
 [Trie insert and search](https://www.geeksforgeeks.org/trie-insert-and-search/)
 ## 5h 
 
@@ -408,10 +412,15 @@ public:
 ```
 
 ### References
-
+I ended up using the most references for this one. I learned a lot more about the C++ language, for example, range based for loops and the auto keyword.
 [Ranged Based Loops C++](https://www.geeksforgeeks.org/range-based-loop-c/)
+
 [priority_queue](https://cplusplus.com/reference/queue/priority_queue/)
+
 [Pp Documentation](https://cplusplus.com/reference/algorithm/make_heap/?kw=make_heap)
+
 [Solution 1](https://twchen.gitbook.io/leetcode/k-closest-points-to-origin)
+
 [Solution Example 2](https://github.com/kamyu104/LeetCode-Solutions/blob/master/C%2B%2B/k-closest-points-to-origin.cpp)
+
 [Auto Keyword](https://cplusplus.com/forum/general/103388/)
