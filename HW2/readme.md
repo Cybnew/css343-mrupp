@@ -417,7 +417,7 @@ I ended up using the most references for this one. I learned a lot more about th
 
 [priority_queue](https://cplusplus.com/reference/queue/priority_queue/)
 
-[Pp Documentation](https://cplusplus.com/reference/algorithm/make_heap/?kw=make_heap)
+[Make_Heap Documentation](https://cplusplus.com/reference/algorithm/make_heap/?kw=make_heap)
 
 [Solution 1](https://twchen.gitbook.io/leetcode/k-closest-points-to-origin)
 
