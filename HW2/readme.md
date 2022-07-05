@@ -413,6 +413,7 @@ public:
 
 ### References
 I ended up using the most references for this one. I learned a lot more about the C++ language, for example, range based for loops and the auto keyword.
+
 [Ranged Based Loops C++](https://www.geeksforgeeks.org/range-based-loop-c/)
 
 [priority_queue](https://cplusplus.com/reference/queue/priority_queue/)
