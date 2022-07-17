@@ -33,19 +33,16 @@ public:
         return clone;
     }
 };
-### References
-## Question 3b 
-![3a](images/3a.png)
 ```
-### Did All Tests Pass?
+### References
 
-### Code 
-
-![3a](images/3a.png)
+## Question 3b 
+![3a](images/3b.png)
 
 ### Did All Tests Pass?
 Yes
 ### Code 
+
 ```
 class Solution {
 public:
