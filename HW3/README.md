@@ -169,6 +169,8 @@ public:
 
 [Shortest Bridge Explination](https://massivealgorithms.blogspot.com/2018/11/leetcode-934-shortest-bridge.html)
 
+[Pair (Geeks for Geeks))](https://www.geeksforgeeks.org/pair-in-cpp-stl/)
+
 ## Question 3d
 ![3d](images/3d.png)
 
