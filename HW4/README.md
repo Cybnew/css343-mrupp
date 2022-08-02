@@ -18,13 +18,13 @@ public:
         vector<int> distance(points.size(), INT_MAX);
         
         //a data structure for tracking which points we've visited
-        unordered_set<int> visited;
+        unordered_map<int,int> visited;
         
         for (int i = 0; i < points.size() - 1; i++) {
             int x = points[p][0]; 
             int y = points[p][1];
             
-            visited.insert(p);
+            visited.emplace(p,p);
             
             
             for (int j = 0; j < points.size(); j++) {
@@ -59,7 +59,6 @@ public:
 
 [Youtube Video on Python Approach](https://www.youtube.com/watch?v=f7JOBJIC-NA)
 
-[Unordered Set vs Unordered Map S.O.](https://stackoverflow.com/questions/40320455/comparing-unordered-map-vs-unordered-set)
 
 ## Problem 5b 
 
